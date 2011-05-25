@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/BatteryLevelBar">
+
+	<TextView android:id="@+id/textBatteryLevel" style="@style/BatteryLevelText"
+		android:text="@string/battery_level" />
+
+	<ImageView style="@style/Separator" />
+
+	<ProgressBar android:id="@+id/progressBarBattery" style="@style/ProgressBar" android:layout_width="match_parent"/>
+
+</LinearLayout>
+

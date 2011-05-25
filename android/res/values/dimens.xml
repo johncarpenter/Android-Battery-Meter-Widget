@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="widget_height">60dip</dimen>
+	<dimen name="separator_width">3dip</dimen>	
+    <dimen name="battery_height">25dip</dimen>
+    <dimen name="battery_indicator_height">25dip</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+</resources>
