@@ -2,4 +2,16 @@
 <resources>
     <string name="app_name">Battery Widget</string>
     <string name="battery_level">/100</string>
+    
+    <!-- Preference Menus -->
+    <string name="settings_title">Battery Widget Settings</string>
+    <string name="preference_title">Settings</string>
+    <string name="preference_fontsize_title">Font Size</string>
+    <string name="preference_transparent_title">Use Transparent Background</string>
+    <string name="preference_transparent_description">Set the background to transparent</string>
+    <string name="preference_image_title">Widget Color</string>
+    <string name="preference_image_description">Choose the color for the widget text</string>
+  
+  
+    
 </resources>

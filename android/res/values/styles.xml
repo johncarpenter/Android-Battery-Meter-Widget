@@ -16,20 +16,37 @@
         <item name="android:padding">2dip</item>
         <item name="android:orientation">vertical</item>
     </style>
-
-	<style parent="@android:style/Widget.ProgressBar.Horizontal" name="ProgressBar">
-		<item name="android:indeterminateOnly">false</item>
-        <item name="android:progressDrawable">@drawable/progress_custom</item>
-    	<item name="android:layout_width">fill_parent</item>
+	
+	<style name="ProgressBarImage">
+		<item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">@dimen/battery_indicator_height</item>
-        <item name="android:paddingRight">10dip</item>
-        <item name="android:paddingLeft">10dip</item>
-        <item name="android:paddingTop">2dip</item>
-        <item name="android:indeterminate">false</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:src">@drawable/battery_level_indicator</item>
 	</style>
 	
-    <style name="BatteryLevelText">
+	
+    <style name="BatteryLevelTextSm">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/battery_level_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/battery_height</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:padding">2dip</item>
+    </style>
+
+	<style name="BatteryLevelTextMed">
         <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/battery_level_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/battery_height</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+    <style name="BatteryLevelTextLg">
+        <item name="android:textSize">@dimen/text_size_large</item>
         <item name="android:textColor">@color/battery_level_text</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/battery_height</item>
@@ -44,6 +61,49 @@
         <item name="android:paddingRight">10dip</item>
         <item name="android:paddingLeft">10dip</item>
         <item name="android:background">@color/separator_bar</item>
+    </style>
+    
+    <!--  For the Settings Page -->
+     <style name="TitleBar">
+         <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/title_background</item>
+    </style>
+    
+     <style name="TitleBarContent">
+         <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/title_background</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="BarSeparator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_separator_height</item>
+        <item name="android:background">@color/title_separator</item>
+    </style>
+    
+    <style name="TitleIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/title_icon_height</item>
+        <item name="android:src">@drawable/icon</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    
+    <style name="TitleBarText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/title_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
     </style>
 
 </resources>

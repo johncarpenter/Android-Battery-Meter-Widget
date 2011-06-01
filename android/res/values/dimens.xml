@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="widget_height">60dip</dimen>
+	<!-- Widget -->
+	<dimen name="widget_height">85dip</dimen>
 	<dimen name="separator_width">3dip</dimen>	
-    <dimen name="battery_height">25dip</dimen>
+    <dimen name="battery_height">30dip</dimen>
     <dimen name="battery_indicator_height">25dip</dimen>
-    <dimen name="text_size_small">14sp</dimen>
-    <dimen name="text_size_medium">18sp</dimen>
-    <dimen name="text_size_large">22sp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    
+    <!-- Settings Page -->
+    <dimen name="title_height">65dip</dimen>
+    <dimen name="title_icon_height">55dip</dimen>
+    <dimen name="title_separator_height">5dip</dimen>
 </resources>
